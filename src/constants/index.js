@@ -13,7 +13,6 @@ import {
   benefitIcon3,
   benefitIcon4,
   disc02,
-  discordBlack,
   discord,
   recording01,
   recording03,
@@ -30,10 +29,8 @@ import {
   protopie,
   framer,
   raindrop,
-  twitter,
-  telegram,
-  facebook,
-  instagram,
+  github,
+  linkedin,
 } from "../assets";
 
 export const navigation = [
@@ -295,33 +292,15 @@ export const pricing = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "LinkedIn",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/in/franco-fantini/",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "GitHub",
+    iconUrl: github,
+    url: "https://github.com/Franco-Fantini",
   },
 ];
 
